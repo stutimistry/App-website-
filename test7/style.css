@@ -1,0 +1,478 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(135deg, #cbb7ff, #9651ff);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    height: 700px;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    position: relative;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.button{
+    padding: 10px 20px;
+    border-radius: 5px; 
+}
+.app-links {
+    margin-bottom: 30px;
+}
+
+.app-links a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.app-links .app-store span, .app-links .google-play span {
+    font-size: 0.8em;
+    display: block;
+}
+.phone-image {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 300px;
+   
+}
+
+.phone-image img {
+    width: 100%;
+    height: 600px;
+}
+.about-section {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: white;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+  
+    padding: 20px;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #666;
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 15px 30px;
+    border: 2px solid #9651ff;
+    border-radius: 5px;
+    color: #9651ff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: #9651ff;
+    color: white;
+}
+.watch-now-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('video-bg.jpg');
+    background-size: cover;
+    padding: 100px 20px;
+}
+
+.watch-now-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.play-button {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.play-button img {
+    width: 100%;
+    height: auto;
+}
+
+.play-button:hover {
+    background-color: #7b3bdb;
+}
+
+.features-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.features-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.features-section p {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 20px;
+}
+
+.features-section h2::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #9651ff;
+    margin: 10px auto;
+}
+.team-section {
+    text-align: center;
+    
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.team-section p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-member {
+    text-align: center;
+    width: 200px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #6a00fc;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.testimonial-section {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:#7b3bdb ;
+}
+
+.testimonial-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.testimonial-section p {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 40px;
+}
+
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial-content {
+    text-align: left;
+}
+
+.testimonial-content h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.testimonial-content .role {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.testimonial-content .testimonial-text {
+    font-size: 14px;
+    color: #555;
+}
+
+.testimonial-nav {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.testimonial-nav:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.contact-form {
+    flex: 2;
+    margin-right: 50px;
+}
+
+.contact-form h2 {
+    color: #333;
+}
+
+.contact-form p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+.contact-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.contact-container h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    text-align: center;
+    color: #888;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group input, .form-group textarea {
+    width: 48%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    width: 100%;
+    resize: none;
+    height: 100px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #a18cd1, #fbc2eb);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact-info div {
+    width: 48%;
+}
+
+.contact-info div ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+.contact-info div ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info div ul li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.contact-info div {
+    background: linear-gradient(to right, #a18cd1, #fbc2eb);
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.footer-cont{
+    text-align: center;
+    color: white;
+    background-color:#9651ff ;
+    height: 200px;
+    padding: auto;
+}
